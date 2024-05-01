@@ -1,0 +1,78 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilFragment">
+
+    <!-- Imagen central -->
+    <ImageView
+        android:id="@+id/imagenPerfil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tituloAgroShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AgroShop"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/imagenPerfil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Descripción -->
+    <TextView
+        android:id="@+id/descripcionAgroShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:scrollbars="vertical"
+        android:text="AgroShop es una tienda de plantas con más de 20 años de experiencia en el cultivo, cuidado y venta de una amplia variedad de plantas ornamentales y de jardín. Nos enorgullecemos de ofrecer a nuestros clientes productos de alta calidad y un servicio excepcional. Nuestra misión es inspirar a las personas a llevar la naturaleza a sus hogares y espacios de vida, brindándoles acceso a plantas hermosas y saludables que mejoran su bienestar y entorno."
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_below="@id/tituloAgroShop"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:scrollbarStyle="insideOverlay"
+        android:fadeScrollbars="false"/>
+
+    <!-- Caso de Éxito 1 -->
+    <TextView
+        android:id="@+id/casoExito1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:scrollbars="vertical"
+        android:text="Uno de nuestros casos de éxito más memorables fue ayudar a un cliente a transformar su patio trasero en un oasis verde. Trabajamos estrechamente con él para seleccionar las plantas perfectas para su espacio, brindándole asesoramiento experto sobre el cuidado y la disposición. El resultado fue un hermoso jardín que se convirtió en el punto focal de su hogar y una fuente de alegría y relajación para toda la familia."
+        android:textSize="16sp"
+        android:layout_below="@id/descripcionAgroShop"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:scrollbarStyle="insideOverlay"
+        android:fadeScrollbars="false"/>
+
+    <!-- Caso de Éxito 2 -->
+    <TextView
+        android:id="@+id/casoExito2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:scrollbars="vertical"
+        android:text="Otro caso notable fue trabajar con un restaurante local para crear un jardín de hierbas frescas y vegetales para su cocina. Proporcionamos una variedad de plantas aromáticas y culinarias, garantizando un suministro constante de ingredientes frescos y de alta calidad para sus platos. Esta asociación no solo mejoró la calidad de los alimentos del restaurante, sino que también resaltó su compromiso con la sostenibilidad y la frescura."
+        android:textSize="16sp"
+        android:layout_below="@id/casoExito1"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:scrollbarStyle="insideOverlay"
+        android:fadeScrollbars="false"/>
+
+</RelativeLayout>

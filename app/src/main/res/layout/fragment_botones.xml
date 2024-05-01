@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BotonesFragment">
+
+    <!-- Botón para mostrar/ocultar información -->
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contactanos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Imagen del producto -->
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonInfo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Texto del producto -->
+    <TextView
+        android:id="@+id/textViewProductInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewProduct"
+        android:layout_centerHorizontal="true"
+        android:text="Contacto:\n\nTeléfono: +123456789\nEmail: info@miempresa.com\nDirección: Calle Principal #1234"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+
+
+</RelativeLayout>

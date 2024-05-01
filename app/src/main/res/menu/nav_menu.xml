@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Perfil"/>
+
+        <item
+            android:id="@+id/nav_fotos"
+            android:icon="@drawable/baseline_image_24"
+            android:title="Fotos"/>
+
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/baseline_auto_awesome_motion_24"
+            android:title="Video"/>
+
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/baseline_arrow_outward_24"
+            android:title="Web"/>
+
+        <item
+            android:id="@+id/nav_buttons"
+            android:icon="@drawable/baseline_ads_click_24"
+            android:title="Botones"/>
+
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+        </menu>
+    </item>
+</menu>
